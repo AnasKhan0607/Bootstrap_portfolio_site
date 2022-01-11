@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Home Page Style*/
+.logo {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.nav-item a{
+	font-size: 1.1em;
+}
+.nav-lin:active{
+	color: blue;
+}
+.nav-lin:hover{
+	color: aqua;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 7em;
+	margin-top: 15em;
+}
+.title h1{
+	font-size: 3em;
+}
+.title p {
+	margin-left: 5em;
+	font-style: italic;
+	color: #ccc;
+	font-size: 2em;
+}
+.homebutton{
+	margin-left: 15em;
+	color: white;
+	border-radius: 1em;
+	background-color: RGB(0, 139, 139);
+}
+
+
+/* About Page Style*/
+
+.card-border{
+	border: solid slategray;
+}
+.about-anas-pic {
+	background-color: lightgray;
+	border: solid RGB(0, 139, 139);
+	border-radius: 50%;
+}
+.greytext h1, h4{
+	color: dimgray;
+}
+.quiz-btn {
+	background-color: RGB(0, 139, 139); 
+}
+
+/* Gallery Page Style*/
+.carousel-inner h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: rgba(0,0,0,0.5);
+	font-size: 4em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.carousel-inner p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2em;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	width: 6rem;
+	height: 6rem;
+}
+fieldset {
+	border: 10px solid #000075;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.pics img{
+	width: 100%;
+}
+.greytext{
+	color: dimgray;
+}
+
+
+/* Portfolio Page Style*/
+.bg-progress {
+	background-color: RGB(0, 139, 139);
+}
+
+
+
+/* Contact Page Style*/
+.form-border{
+	border: solid;
+	border-width: 5px;
+	border-color: RGB(0, 139, 139);
+}
+.my-form {
+	color: RGB(0, 139, 139);
+}
+.my-form .btn-default {
+	margin-top: 15px;
+	background-color: RGB(0, 139, 139);
+	color: #fff;
+	border-radius: 1em;
+}
+.my-form .btn-default:hover {
+	background-color: RGB(0, 100, 100);
+	color: #fff;
+}
+.my-form .form-control {
+	border-radius: 1em;
+}
+
+
+
+/* Procedure Page Style*/
+
+
+
+
+
+
+
+
+
+
